@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="estilo.css"> </head>
+           <body bgcolor="teal">       
+            <title>  
+  Formulario
+  </title>
+  
+  <p class="titulo"> Formulario</p>
+ 
+   
+ <form  class="formulario"action="Action.php" method="GET">
+  
+<p class="Cedula" name = "Cedula"> Cedula: <br> <input type="text" class="redondo" placeholder="Escriba su cedula" name="Cedula" /></p>
+<p class="Nombre" name = "Nombre" >Nombre: <br> <input type="text"   class="redondo" placeholder="Su nombre" name="Nombre" /></p>
+<p class="Apellido" name = "Apellido">Apellido: <br> <input type="text"  class="redondo" placeholder="Su apellido" name="Apellido" /></p>
+<p class="Tipo" name= "Tipo2">Tipo de sangre: <br> <select name = "Tipo3">
+
+    <option value="AB">AB</option>
+    <option value="A+">A+</option>
+    <option value="A-">A-</option>
+    <option value="O+">O+</option>
+    <option value="0-">O-</option>
+
+</select></p>
+    
+<p class="Genero">Genero:
+    <br class="gen">
+    <fieldset class = "Genero" name = "Genero">
+    <label>
+        <input type="radio" name="sexo" value="Masculino"> Masculino
+    </label>
+    <label>
+        <input type="radio" name="sexo" value="Femenino"> Femenino
+    </label>
+    </fieldset>
+</p>
+<p class="Comentarios" >Comentarios: <br> <textarea  class="redondo" placeholder="Agregar comentario.. " name="Comentarios" required cols="60" rows="7"></textarea> </p>
+
+<p class="Enviar" name = "Check_Envio">Enviar <br> <input type="checkbox"  value="Enviar" name="Sender"/></p>
+
+<p class="Enviar" name = "Check_Envio">Enviar <br> <button type = "submit" method = "POST" action = "">Enviar</button> </p>
+
+<br>
+<a href="Action.php">ir a lista</a>
+ </form>
+ 
+ 
+    </body>
+    </html>
+
+

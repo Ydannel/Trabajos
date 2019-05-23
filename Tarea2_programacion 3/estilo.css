@@ -1,0 +1,107 @@
+.titulo
+{
+
+    text-align: center;
+
+    font-weight: bold;
+        font-family: gabriola;
+        font-size: 300%;
+    
+}
+.nuevo{
+text-decoration: none;
+color: black;
+
+
+}
+.Enviarr
+{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+        font-family: gabriola;
+        font-size: 130%;
+}
+.tablita
+{  
+    font-weight: bold;
+    font-family: gabriola;
+    font-size: 130%;
+
+}
+
+.formulario
+{
+   border-radius: 5px;
+   border: white 9px double;
+}
+.redondo
+{
+
+    border-radius: 5px
+}
+.veces{
+    text-align: center;
+
+font-weight: bold;
+    font-family: gabriola;
+    font-size: 130%;
+
+}
+.Cedula{
+text-align: center;
+
+font-weight: bold;
+font-family: gabriola;
+font-size: 150%;
+}
+.Nombre
+{
+    text-align: center;
+    
+    font-weight: bold;
+    font-family: gabriola;
+    font-size: 150%;
+    }
+.Apellido{
+        text-align: center;
+     
+        font-weight: bold;
+        font-family: gabriola;
+        font-size: 150%;
+        }
+.Tipo{
+            text-align: center;
+            
+            font-weight: bold;
+            font-family: gabriola;
+            font-size: 150%;
+            }
+ .Genero{
+        text-align: center;
+         
+     font-weight: bold;
+    font-family: gabriola;
+    font-size: 150%;
+                }
+.gen{
+    text-align: center;
+   
+    font-weight: bold;
+    font-family: gabriola;
+    font-size: 150%;
+       }
+  .Comentarios{
+  text-align: center;
+
+ font-weight: bold;
+  font-family: gabriola;
+   font-size: 150%;
+  }
+  .Enviar{
+    text-align: center;
+    font-weight: bold;
+    font-family: gabriola;
+    font-size: 150%;
+    }
