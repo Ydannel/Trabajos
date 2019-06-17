@@ -1,0 +1,200 @@
+.derecha
+{  background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.titulo
+{
+  text-align: left;
+  font-weight: bold;
+  font-family: gabriola;
+    font-size: 250%;
+    color: white;
+    
+}
+/*TITULOS DE INICIO*/
+/*"table table-striped table-bordered table-sm" cellspacing="0" width="100%" position="relative" left="200px"top="20"
+*/
+
+.titulos2
+{ text-align: center;
+  text-align: left;
+  font-weight: bold;
+  font-family: gabriola;
+    font-size: 350%;
+    color:black;
+    position: relative;
+left: 2px;
+top:10px;
+
+}
+/*******************************/
+.titulos
+{ text-align: center;
+  text-align: left;
+  font-weight: bold;
+  font-family: gabriola;
+    font-size: 350%;
+    color:black;
+    position: relative;
+left: 352px;
+top:30px;
+
+}
+.butons{
+position: relative;
+left: 120px;
+top:20px;
+
+}
+.butons2{
+  position: relative;
+  left: 90px;
+  top:20px;
+  
+  }
+/*
+.fondito{
+background: url('sources/2.png');
+width: 787px;
+height: 500px;
+}*/
+.letra{
+
+    color: black;
+    font-weight: bold;
+        font-family: gabriola;
+        font-size: 200%;
+}
+.blanco{
+    
+    font-family: gabriola;
+    font-size: 150%;
+}
+.Enviarr
+{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+        font-family: gabriola;
+        font-size: 150%;
+}
+    input{
+        text-align: center;
+        border-radius: 5px
+    }
+    .centrado
+    {
+  background-position: center;
+    }
+    
+    .redondo
+{
+
+    border-radius: 5px
+}
+.Cedula{
+    text-align: center;
+    
+    font-weight: bold;
+    font-family: gabriola;
+    font-size: 150%;
+    }
+    .Enviar
+{
+    text-align: center;
+    background-color: #b4daed;   
+    font-weight: bold;
+    font-family:gabriola;
+        font-size: 109%;
+}
+.nuevo{
+    text-decoration: none;
+    color: black;
+    
+    
+    }
+    .formulario
+{
+   border-radius: 5px;
+   border: white 9px double;
+   position: relative;
+   left: 350px;
+   top:20px;
+   
+}
+.centrar{
+
+    background-position: 200px;
+}
+.blanco
+{
+    background:#43baff;
+}
+/*
+.container
+{
+  position: relative;
+  left: 200px;
+  top:5px;
+  background:#b4daed;
+
+  
+}
+
+/**************************************************************/
+
+a {
+    text-decoration:none;
+    color:#FFF;
+  }
+  .rainbow-button {
+    width:calc(15vw + 3px);
+    height:calc(4vw + 3px);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:3vw;
+    font-weight:bold;
+    
+    font-family: gabriola;
+    font-size: 150%;
+position: relative;
+left: 400px;
+top:-160px;
+  }
+  .rainbow-button:after {
+    content:attr(alt);
+    width:15vw;
+    height:4vw;
+    background-color:#191919;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .rainbow-button:hover {
+    animation:slidebg 2s linear infinite;
+  }
+  
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+  /***********************************************************************/
+  table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
