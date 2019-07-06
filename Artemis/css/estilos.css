@@ -1,0 +1,512 @@
+
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+.titulo
+{
+  
+  font-weight: bold;
+  font-family: gabriola;
+    font-size: 350%;
+    text-align: center;
+    color:black;
+    
+}
+/*TITULOS DE INICIO*/
+/*"table table-striped table-bordered table-sm" cellspacing="0" width="100%" position="relative" left="200px"top="20"
+*/
+
+.titulos2
+{ text-align: center;
+  text-align: left;
+  font-weight: bold;
+  font-family: gabriola;
+    font-size: 350%;
+    color:black;
+    position: relative;
+left: 2px;
+top:10px;
+
+}
+/*******************************/
+
+.butons2{
+  position: relative;
+  left: 90px;
+  top:20px;
+  
+  }
+/*
+.fondito{
+background: url('sources/2.png');
+width: 787px;
+height: 500px;
+}*/
+.letra{
+
+    color: black;
+    font-weight: bold;
+        font-family: gabriola;
+        font-size: 200%;
+        text-align: center;
+}
+.blanco{
+    
+    font-family: gabriola;
+    font-size: 150%;
+}
+.Enviarr
+{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+        font-family: gabriola;
+        font-size: 150%;
+}
+    input{
+        text-align: center;
+        border-radius: 5px
+    }
+    .centrado
+    {
+  background-position: center;
+    }
+    
+    .redondo
+{
+
+    border-radius: 5px
+}
+.Cedula{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: gabriola;
+    font-size: 150%;
+    }
+
+
+    .Enviar
+{
+   
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+     
+      }
+      .buton1 {
+        background-color: white; 
+        color: black; 
+        border: 4px solid #4CAF50;
+        border-radius: 8px;
+      }
+      
+      .buton1:hover {
+        background-color: #4CAF50;
+        color: white;
+      }
+      
+      /************/
+     
+.nuevo{
+    text-decoration: none;
+    color: black;
+    
+    
+    }
+   .formulario
+{
+  
+ text-align: center;  
+}
+
+
+/**************************************************************/
+
+a {
+    text-decoration:none;
+    color:#FFF;
+  }
+  .rainbow-button {
+    width:calc(15vw + 3px);
+    height:calc(4vw + 3px);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:3vw;
+    font-weight:bold;
+    
+    font-family: gabriola;
+    font-size: 150%;
+position: relative;
+left: 290px;
+top:50px;
+  }
+  .rainbow-button:after {
+    content:attr(alt);
+    width:15vw;
+    height:4vw;
+    background-color:#191919;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .rainbow-button:hover {
+    animation:slidebg 2s linear infinite;
+  }
+  
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+  /***********************************************************************/
+  table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+
+/**************************NAVEGADOR********************************************/
+
+.bar
+{
+
+      background: rgb(0, 0, 0);
+      width: 100%;
+      position: fixed;
+     
+  
+}
+nav {
+  float: right; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: gabriola;
+  font-size: 30px;
+
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+
+}
+
+nav ul li:hover {
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 2s linear infinite;
+}
+
+nav {
+  float: right; /* Desplazamos el nav hacia la izquierda */
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+ 
+nav ul li {
+  float: left;
+  font-family: gabriola;
+  font-size: 30px;
+}
+ 
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  animation:slidebg 2s linear infinite;
+}
+
+
+/****************CONTENEDOR DE INICIO***********************/
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+}
+
+.header{
+  flex: 0 0 50px;
+  
+}
+
+.content-body{
+  flex: 1 1 auto;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.content-body .content{
+  flex: 1 1 auto;
+  overflow: auto;
+  
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: 1000px;
+  height: 1000px;
+  width: 800px;
+}
+
+.content-body .ads{
+  flex: 1 1 auto;
+  overflow: auto;
+  height: 1000px;
+  width: 800px;
+}
+
+.footer{
+  flex: 0 0 50px;
+  
+}
+/*PAGINA DE ARTICULOS*/
+.content-body .content1{
+  flex: 1 1 auto;
+  overflow: auto;
+  background-color: rgb(1, 175, 255);
+  background-position: center; 
+  background-repeat: no-repeat; 
+ 
+  height: 100%;
+  width: 1100px;
+}
+.content-body .ads1{
+  flex: 1 1 auto;
+  overflow: auto;
+  height: 100%;
+  width: 500px;
+}
+/*TABLA PARA MOSTRAR LA INFO*/
+.tabla_art {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.th_art{
+  
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: black;
+}
+.td_art{
+
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color:#a1f3ef;}
+.blanco_art{
+
+color:white;
+
+font-family: gabriola;
+font-size: 30px;
+}
+
+/*ESPACIADO PARA LOS FORMULARIOS CLIENTES Y ARTICULOS*/
+
+.content-body .content2{
+  flex: 1 1 auto;
+  overflow: auto;
+  background-color: rgb(230, 229, 210);
+  background-position: center; 
+  background-repeat: no-repeat; 
+ border-radius: 50px;
+  height: 100%;
+  width: 1100px;
+}
+
+/*ESPACIADO DE FORMULARIO DE USUARIO*/
+.content-body .content4{
+  flex: 1 1 auto;
+  overflow: auto;
+  background-color:  rgb(230, 229, 210);;
+  background-position: center; 
+  background-repeat: no-repeat;
+
+  height: 100%;
+  width: 500px;
+}
+.content-body .content3{
+  flex: 1 1 auto;
+  overflow: auto;
+  
+  background-position: center; 
+  background-repeat: no-repeat; 
+ border-radius: 50px;
+  height: 700px;
+  width: 1100px;
+}
+.content-body .ads2{
+  flex: 1 1 auto;
+  overflow: auto;
+  height: 700px;
+  width: 500px;
+  
+}
+/*BOTON DE FORMULARIO*/
+
+.buton2 {
+  
+font-family: gabriola;
+font-size: 25px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  border-radius: 5px;
+}
+
+.buton2:hover {
+  border-radius: 5px;
+  background-color: #008CBA;
+  color: white;
+}
+/*caja*/
+select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label{
+
+  color:black;
+}
+
+.buton3 {
+  
+  font-family: gabriola;
+  font-size: 25px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid rgb(61, 243, 61);;
+    border-radius: 5px;
+  }
+  
+  .buton3:hover {
+    border-radius: 5px;
+    background-color: rgb(61, 243, 61);
+    color: white;
+  }
+
+  /***********GALERIA DE INICIO*************/
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery .galeria {
+    width: 100%;
+    height: auto;
+  }
+  
+  .galery .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  /*******************************MODAL DEL MODULO COMPRA*/
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /*DISENIO PARA FECHA EN COMPRA*/
+  .fecha{
+
+      color: black;
+      font-weight: bold;
+          font-family: helvetica;
+          font-size: 100%;
+          text-align: left;
+  }
+  /*PARRAFO DE ROJO EN INICIO*/
+  .rojo{
+
+    color: crimson;
+    font-weight: bold;
+        font-family: gabriola;
+        font-size: 200%;
+        text-align: center;
+}
