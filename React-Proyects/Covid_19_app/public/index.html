@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/2.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Covid 19</title>
+       <!-- UIkit CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+   <!-- UIkit JS --> 
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+</head>
+<script>
+$(document).ready(function() {
+	// INITIATE THE FOOTER
+  siteFooter();
+	// COULD BE SIMPLIFIED FOR THIS PEN BUT I WANT TO MAKE IT AS EASY TO PUT INTO YOUR SITE AS POSSIBLE
+	$(window).resize(function() {
+		siteFooter();
+	});
+	
+	function siteFooter() {
+		var siteContent = $('#site-content');
+		var siteContentHeight = siteContent.height();
+		var siteContentWidth = siteContent.width();
+
+		var siteFooter = $('#site-footer');
+		var siteFooterHeight = siteFooter.height();
+		var siteFooterWidth = siteFooter.width();
+		siteContent.css({
+			"margin-bottom" : siteFooterHeight + 50
+		});
+	};
+});
+</script> 
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    </body>
+</html>
